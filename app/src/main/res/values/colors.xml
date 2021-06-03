@@ -9,4 +9,7 @@
   <color name="white">#FFFFFFFF</color>
   <color name="tv_welcome">#363A43</color>
   <color name="tv_enter_name">#7A8089</color>
+  <color name="color_please_enter_your_name">#1B1C1E</color>
+  <color name="color_name">#1B1C1E</color>
+  <color name="background_color_bt_start">#1C32A3</color>
 </resources>
