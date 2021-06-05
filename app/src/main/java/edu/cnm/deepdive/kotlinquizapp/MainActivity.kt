@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import com.google.android.material.textfield.TextInputLayout
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
 
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
-        val bt_start = findViewById<Button>(R.id.bt_start)
-        val et_name = findViewById<androidx.appcompat.widget.AppCompatEditText>(R.id.et_name)
+        val btStart = findViewById<Button>(R.id.bt_start)
+        val etName = findViewById<androidx.appcompat.widget.AppCompatEditText>(R.id.et_name)
 
-        bt_start.setOnClickListener{
-            if (et_name.toString().isEmpty()){
+        btStart.setOnClickListener{
+            if (etName.text.toString().isEmpty()){
                 Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT).show()
             } else {
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
