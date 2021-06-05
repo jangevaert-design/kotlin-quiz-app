@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         val bt_start = findViewById<Button>(R.id.bt_start)
-        val et_name = findViewById<TextInputLayout>(R.id.et_name)
+        val et_name = findViewById<androidx.appcompat.widget.AppCompatEditText>(R.id.et_name)
 
         bt_start.setOnClickListener{
             if (et_name.toString().isEmpty()){

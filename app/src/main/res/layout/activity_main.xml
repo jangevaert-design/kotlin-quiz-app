@@ -22,6 +22,7 @@
     android:textStyle="bold"/>
 
   <androidx.cardview.widget.CardView
+    android:id="@+id/cv_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="20dp"
@@ -57,17 +58,18 @@
       <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:layout_marginTop="20dp">
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
 
         <androidx.appcompat.widget.AppCompatEditText
           android:id="@+id/et_name"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="@string/name_hint"
-          android:textColor="@color/color_name"
-          android:textColorHint="@color/tv_enter_name"
-          android:textSize="20dp"/>
+          android:imeOptions="actionGo"
+          android:hint="Name"
+          android:inputType="textCapWords"
+          android:textColor="#363A43"
+          android:textColorHint="#7A8089"/>
 
       </com.google.android.material.textfield.TextInputLayout>
 
