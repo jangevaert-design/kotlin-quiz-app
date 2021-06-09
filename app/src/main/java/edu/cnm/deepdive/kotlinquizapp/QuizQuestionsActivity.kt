@@ -8,6 +8,12 @@ import android.widget.ProgressBar
 import android.widget.TextView
 
 class QuizQuestionsActivity : AppCompatActivity() {
+
+    private var mCurrentPosition: Int = 1
+    private var mQuestionsList: ArrayList<Question>? = null
+    private var mSelectedOptionPosition: Int = 0
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz_questions)

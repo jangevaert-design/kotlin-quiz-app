@@ -23,13 +23,13 @@
       android:gravity="center"
       android:textColor="#363A43"
       android:text="What country does this flag belong to?"
-      android:textSize="22sp"/>
+      android:textSize="20sp"/>
 
     <ImageView
       android:id="@+id/iv_image"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="10dp"
       android:src="@drawable/ic_flag_of_argentina"/>
 
     <LinearLayout
@@ -56,9 +56,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="15dp"
+        android:padding="10dp"
         android:textColorHint="#7A8089"
-        android:textSize="14sp"
+        android:textSize="10sp"
         android:text="0/10"/>
 
     </LinearLayout>
@@ -70,10 +70,11 @@
       android:layout_margin="10dp"
       android:background="@drawable/default_option_border_bg"
       android:gravity="center"
-      android:padding="15dp"
+      android:padding="10dp"
       tools:text="Apple"
       android:textColor="#7A8089"
-      android:textSize="18sp"/>
+      android:textSize="14sp"
+      android:textStyle="bold"/>
 
 
     <TextView
@@ -83,10 +84,11 @@
       android:layout_margin="10dp"
       android:background="@drawable/default_option_border_bg"
       android:gravity="center"
-      android:padding="15dp"
+      android:padding="10dp"
       tools:text="Google"
       android:textColor="#7A8089"
-      android:textSize="18sp"/>
+      android:textSize="14sp"
+      android:textStyle="bold"/>
 
     <TextView
       android:id="@+id/tv_option_three"
@@ -95,10 +97,11 @@
       android:layout_margin="10dp"
       android:background="@drawable/default_option_border_bg"
       android:gravity="center"
-      android:padding="15dp"
+      android:padding="10dp"
       tools:text="Android Inc"
       android:textColor="#7A8089"
-      android:textSize="18sp"/>
+      android:textSize="14sp"
+      android:textStyle="bold"/>
 
     <TextView
       android:id="@+id/tv_option_four"
@@ -107,10 +110,11 @@
       android:layout_margin="10dp"
       android:background="@drawable/default_option_border_bg"
       android:gravity="center"
-      android:padding="15dp"
+      android:padding="10dp"
       tools:text="Nokia"
       android:textColor="#7A8089"
-      android:textSize="18sp"/>
+      android:textSize="14sp"
+      android:textStyle="bold"/>
 
     <Button
       android:id="@+id/bt_submit"
@@ -120,7 +124,7 @@
       android:background="@color/purple_700"
       android:textColor="@android:color/white"
       android:text="SUBMIT"
-      android:textSize="18sp"
+      android:textSize="14sp"
       android:textStyle="bold"
       />
 
