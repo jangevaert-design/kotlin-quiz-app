@@ -1,6 +1,7 @@
 package edu.cnm.deepdive.kotlinquizapp
 
-data class Question (
+
+data class Question(
     val id: Int,
     val question: String,
     val image: Int,
